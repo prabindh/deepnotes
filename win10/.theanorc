@@ -1,0 +1,13 @@
+[global]
+device=gpu
+floatX=float32
+
+[nvcc]
+compiler_bindir=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64
+flags=--cl-version=2013
+
+[blas]
+ldflags=-lopenblas
+
+[gcc]
+cxxflags=-I"C:\Users\psundareson\TOOLS\OpenBLAS-v0.2.15-Win64-int32\OpenBLAS-v0.2.15-Win64-int32\include" -L"C:\Users\psundareson\TOOLS\OpenBLAS-v0.2.15-Win64-int32\OpenBLAS-v0.2.15-Win64-int32\lib"
