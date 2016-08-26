@@ -1,0 +1,5 @@
+Since Nv driver is already installed, do not select any Display/Graphics/OpenGL option in the cuda installer. Only install the CUDA toolkit and samples.
+
+For 16.04.1, also need to run the Patch file - cuda_8.0.27.1_linux.run, to enable support for GCC5
+
+

@@ -1,0 +1,11 @@
+http://askubuntu.com/questions/742237/installing-ubuntu-with-nouveau-error
+
+First uninstall the currently installed NVIDIA drivers.Boot the computer, when the GRUB menu appears ...
+
+Highlight the Ubuntu menu entry and press the E key.Add nouveau.modeset=0 to the end of the linux line. Press F10 to boot the Ubuntu operating system.
+
+When the login screen appears press Ctrl+Alt+F1.Enter your user name and the password, then execute :
+
+sudo apt-get purge nvidia*  
+sudo reboot 
+

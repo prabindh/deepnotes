@@ -1,0 +1,4 @@
+https://developer.nvidia.com/cudnn
+
+Select CUDNN5. You need to register for this.
+

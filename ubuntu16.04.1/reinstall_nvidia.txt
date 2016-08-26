@@ -1,0 +1,11 @@
+Now that all display drivers have been disabled (both intel and Nv), you will be able to login only through tty. Login, and from the terminal, type below:
+
+
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+sudo apt-get install nvidia-367
+
+Then reboot
+
+On reboot, you might be asked to select one Display manager, you can try gdm3
+

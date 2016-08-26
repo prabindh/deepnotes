@@ -1,0 +1,22 @@
+https://github.com/NVIDIA/DIGITS/blob/master/docs/BuildDigits.md
+
+This should work as-is, 
+
+prabindh@prabindh-Precision-5510:~/work-2016/digits$ sudo ./digits-devserver --debug
+Couldn't import dot_parser, loading of dot files will not be possible.
+2016-08-26 14:10:20 [INFO ] Loaded 0 jobs.
+  ___ ___ ___ ___ _____ ___
+ |   \_ _/ __|_ _|_   _/ __|
+ | |) | | (_ || |  | | \__ \
+ |___/___\___|___| |_| |___/ 4.1-dev
+
+ * Running on http://0.0.0.0:5000/
+ * Restarting with stat
+Couldn't import dot_parser, loading of dot files will not be possible.
+ * Debugger is active!
+ * Debugger pin code: 197-717-338
+2016-08-26 14:10:20 [INFO ] Loaded 0 jobs.
+  ___ ___ ___ ___ _____ ___
+ |   \_ _/ __|_ _|_   _/ __|
+ | |) | | (_ || |  | | \__ \
+ |___/___\___|___| |_| |___/ 4.1-dev
