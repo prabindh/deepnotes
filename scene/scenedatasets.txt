@@ -1,0 +1,52 @@
+http://dags.stanford.edu/projects/scenedataset.html
+
+Scene Understanding Datasets
+stanford background dataset (14.0MB) [.tar.gz]
+The Stanford Background Dataset is a new dataset introduced in Gould et al. (ICCV 2009) for evaluating methods for geometric and semantic scene understanding. The dataset contains 715 images chosen from existing public datasets: LabelMe, MSRC, PASCAL VOC and Geometric Context. Our selection criteria were for the images to be of outdoor scenes, have approximately 320-by-240 pixels, contain at least one foreground object, and have the horizon position within the image (it need not be visible).
+Semantic and geometric labels were obtained using Amazon's Mechanical Turk (AMT). The labels are:
+
+horizons.txt	image dimensions and location of horizon
+labels/*.regions.txt	integer matrix indicating each pixel's semantic class (sky, tree, road, grass, water, building, mountain, or foreground object). A negative number indicates unknown.
+labels/*.surfaces.txt	integer matrix indicating each pixel's geometric class (sky, horizontal, or vertical).
+labels/*.layers.txt	integer matrix indicating distinct image regions.
+
+      
+
+      
+
+
+
+Figure 1. Example Images, Semantic Labels, and Regions from the Stanford Background Dataset.
+
+If you use this dataset in your work, you should reference:
+S. Gould, R. Fulton, D. Koller. Decomposing a Scene into Geometric and Semantically Consistent Regions. Proceedings of International Conference on Computer Vision (ICCV), 2009. [pdf]
+
+	
+		
+cascaded classification models DS1 dataset (23.0MB) [.tar.gz]
+This dataset is designed for evaluating holistic scene understanding algorithms and is composed of 422 images of outdoor scenes from various existing datasets. Each image is annotated with object bounding boxes, pixel semantic classes, and high-level scene category (e.g., urban, rural, harbor). The dataset includes six object categories (boat, car, cow, motorbike, person, and sheep) and the same eight pixel-level semantic classes as the Stanford Background Dataset.
+Example images coming soon...
+If you use this dataset in your work, you should reference:
+G. Heitz, S. Gould, A. Saxena, D. Koller. Cascaded Classification Models: Combining Models for Holistic Scene Understanding. Proceedings of Advances in Neural Information Processing Systems (NIPS), 2008.
+
+	
+		
+semantically-augmented make3d dataset (29.0MB) [.tar.gz]
+This dataset contains images and labels used in Liu et al. (CVPR 2010). The original images and depthmaps were obtained from the Make3d project. However, the images were resized to 240-by-320 for our work. Images were also labeled with semantic classes: -1 unknown, 0 sky, 1 tree/bush, 2 road/path, 3 grass, 4 water, 5 building, 6 mountain, 7 foreground object. Data is divided into training (400 image) and evaluation (134) images.
+Example images coming soon...
+If you use this dataset in your work, you should reference:
+B. Liu, S. Gould, D. Koller. Single Image Depth Estimation from Predicted Semantic Labels. Proceedings of Conference on Computer Vision and Pattern Recognition (CVPR), 2010.
+A. Saxena, S. H. Chung, A. Y. Ng. Learning Depth from Single Monocular Images. Proceedings of Advances in Neural Information Processing Systems (NIPS), 2005.
+A. Saxena, M. Sun, A. Y. Ng. Make3D: Learning 3D Scene Structure from a Single Still Image. IEEE Trans. of Pattern Analysis and Machine Intelligence (PAMI), 2009.
+
+	
+		
+downloads and other resources
+Scene Understanding Project [html]
+Stanford Background Dataset (14.0MB) [.tar.gz]
+Cascaded Classification Models (DS1) Dataset (23.0MB) [.tar.gz]
+Semantically-augmented Make3d Dataset (29.0MB) [.tar.gz]
+
+acknowledgments
+This material is based upon work supported by the National Science Foundation under Grant No. RI-0917151. Any opinions, findings and conclusions or recomendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation (NSF).
+We are also grateful for support from the DARPA Transfer Learning program, the Office of Naval Research (ONR) Multidisciplinary University Research Initiative (MURI) program and the Boeing company.
