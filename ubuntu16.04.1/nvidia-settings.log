@@ -1,0 +1,621 @@
+
+Attributes queryable via prabindh-Precision-5510:0.0:
+
+  Attribute 'OperatingSystem' (prabindh-Precision-5510:0.0): 0.
+    The valid values for 'OperatingSystem' are in the range 0 - 2 (inclusive).
+    'OperatingSystem' is a read-only attribute.
+    'OperatingSystem' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvidiaDriverVersion' (prabindh-Precision-5510:0.0): 367.44 
+    'NvidiaDriverVersion' is a string attribute.
+    'NvidiaDriverVersion' is a read-only attribute.
+    'NvidiaDriverVersion' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvControlVersion' (prabindh-Precision-5510:0.0): 1.29 
+    'NvControlVersion' is a string attribute.
+    'NvControlVersion' is a read-only attribute.
+    'NvControlVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXServerVersion' (prabindh-Precision-5510:0.0): 1.4 
+    'GLXServerVersion' is a string attribute.
+    'GLXServerVersion' is a read-only attribute.
+    'GLXServerVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXClientVersion' (prabindh-Precision-5510:0.0): 1.4 
+    'GLXClientVersion' is a string attribute.
+    'GLXClientVersion' is a read-only attribute.
+    'GLXClientVersion' can use the following target types: X Screen.
+
+  Attribute 'OpenGLVersion' (prabindh-Precision-5510:0.0): 4.5.0 NVIDIA 367.44
+    'OpenGLVersion' is a string attribute.
+    'OpenGLVersion' is a read-only attribute.
+    'OpenGLVersion' can use the following target types: X Screen.
+
+  Attribute 'XRandRVersion' (prabindh-Precision-5510:0.0): 1.5 
+    'XRandRVersion' is a string attribute.
+    'XRandRVersion' is a read-only attribute.
+    'XRandRVersion' can use the following target types: X Screen.
+
+  Attribute 'XF86VidModeVersion' (prabindh-Precision-5510:0.0): 2.2 
+    'XF86VidModeVersion' is a string attribute.
+    'XF86VidModeVersion' is a read-only attribute.
+    'XF86VidModeVersion' can use the following target types: X Screen.
+
+  Attribute 'XvVersion' (prabindh-Precision-5510:0.0): 2.2 
+    'XvVersion' is a string attribute.
+    'XvVersion' is a read-only attribute.
+    'XvVersion' can use the following target types: X Screen.
+
+  Attribute 'Ubb' (prabindh-Precision-5510:0.0): 1.
+    'Ubb' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'Ubb' is a read-only attribute.
+    'Ubb' can use the following target types: X Screen.
+
+  Attribute 'Overlay' (prabindh-Precision-5510:0.0): 0.
+    'Overlay' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'Overlay' is a read-only attribute.
+    'Overlay' can use the following target types: X Screen.
+
+  Attribute 'Stereo' (prabindh-Precision-5510:0.0): 0.
+    Valid values for 'Stereo' are: 0, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12.
+    'Stereo' is a read-only attribute.
+    'Stereo' can use the following target types: X Screen.
+
+  Attribute 'TwinView' (prabindh-Precision-5510:0.0): 0.
+    'TwinView' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'TwinView' is a read-only attribute.
+    'TwinView' can use the following target types: X Screen.
+
+  Attribute 'ConnectedDisplays' (prabindh-Precision-5510:0.0): 0x00000000.
+    'ConnectedDisplays' is a bitmask attribute.
+    'ConnectedDisplays' is a read-only attribute.
+    'ConnectedDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'EnabledDisplays' (prabindh-Precision-5510:0.0): 0x00000000.
+    'EnabledDisplays' is a bitmask attribute.
+    'EnabledDisplays' is a read-only attribute.
+    'EnabledDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'AssociatedDisplays' (prabindh-Precision-5510:0.0): 0x00000000.
+    'AssociatedDisplays' is a bitmask attribute.
+    'AssociatedDisplays' can use the following target types: X Screen.
+
+  Attribute 'InitialPixmapPlacement' (prabindh-Precision-5510:0.0): 2.
+    The valid values for 'InitialPixmapPlacement' are in the range 0 - 4
+    (inclusive).
+    'InitialPixmapPlacement' can use the following target types: X Screen.
+
+  Attribute 'MultiGpuDisplayOwner' (prabindh-Precision-5510:0.0): 0.
+    'MultiGpuDisplayOwner' is an integer attribute.
+    'MultiGpuDisplayOwner' is a read-only attribute.
+    'MultiGpuDisplayOwner' can use the following target types: X Screen.
+
+  Attribute 'GlyphCache' (prabindh-Precision-5510:0.0): 1.
+    'GlyphCache' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'GlyphCache' can use the following target types: X Screen.
+
+  Attribute 'Depth30Allowed' (prabindh-Precision-5510:0.0): 1.
+    'Depth30Allowed' is a boolean attribute; valid values are: 1 (on/true) and
+    0 (off/false).
+    'Depth30Allowed' is a read-only attribute.
+    'Depth30Allowed' can use the following target types: X Screen, GPU.
+
+  Attribute 'NoScanout' (prabindh-Precision-5510:0.0): 1.
+    'NoScanout' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'NoScanout' is a read-only attribute.
+    'NoScanout' can use the following target types: X Screen, GPU.
+
+  Attribute 'XServerUniqueId' (prabindh-Precision-5510:0.0): -1642937209.
+    'XServerUniqueId' is an integer attribute.
+    'XServerUniqueId' is a read-only attribute.
+    'XServerUniqueId' can use the following target types: X Screen.
+
+  Attribute 'PixmapCache' (prabindh-Precision-5510:0.0): 1.
+    'PixmapCache' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'PixmapCache' can use the following target types: X Screen.
+
+  Attribute 'PixmapCacheRoundSizeKB' (prabindh-Precision-5510:0.0): 1024.
+    The valid values for 'PixmapCacheRoundSizeKB' are in the range 4 - 1048576
+    (inclusive).
+    'PixmapCacheRoundSizeKB' can use the following target types: X Screen.
+
+  Attribute 'AccelerateTrapezoids' (prabindh-Precision-5510:0.0): 1.
+    'AccelerateTrapezoids' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'AccelerateTrapezoids' can use the following target types: X Screen.
+
+  Attribute 'ScreenPosition' (prabindh-Precision-5510:0.0): x=0, y=0,
+  width=1920, height=1080 
+    'ScreenPosition' is a string attribute.
+    'ScreenPosition' is a read-only attribute.
+    'ScreenPosition' can use the following target types: X Screen.
+
+  Attribute 'LogAniso' (prabindh-Precision-5510:0.0): 0.
+    The valid values for 'LogAniso' are in the range 0 - 4 (inclusive).
+    'LogAniso' can use the following target types: X Screen.
+
+  Attribute 'FSAA' (prabindh-Precision-5510:0.0): 0.
+    Valid values for 'FSAA' are: 0, 1, 5, 9, 10, 11, 13 and 15.
+    'FSAA' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALines' (prabindh-Precision-5510:0.0): 0.
+    'GammaCorrectedAALines' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'GammaCorrectedAALines' can use the following target types: X Screen.
+
+  Attribute 'TextureClamping' (prabindh-Precision-5510:0.0): 1.
+    'TextureClamping' is an integer attribute.
+    'TextureClamping' can use the following target types: X Screen.
+
+  Attribute 'FXAA' (prabindh-Precision-5510:0.0): 0.
+    'FXAA' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'FXAA' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppControlled' (prabindh-Precision-5510:0.0): 1.
+    'FSAAAppControlled' is a boolean attribute; valid values are: 1 (on/true)
+    and 0 (off/false).
+    'FSAAAppControlled' can use the following target types: X Screen.
+
+  Attribute 'LogAnisoAppControlled' (prabindh-Precision-5510:0.0): 1.
+    'LogAnisoAppControlled' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'LogAnisoAppControlled' can use the following target types: X Screen.
+
+  Attribute 'OpenGLImageSettings' (prabindh-Precision-5510:0.0): 1.
+    The valid values for 'OpenGLImageSettings' are in the range 0 - 3
+    (inclusive).
+    'OpenGLImageSettings' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppEnhanced' (prabindh-Precision-5510:0.0): 0.
+    'FSAAAppEnhanced' is a boolean attribute; valid values are: 1 (on/true) and
+    0 (off/false).
+    'FSAAAppEnhanced' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALinesValue' (prabindh-Precision-5510:0.0): 16.
+    The valid values for 'GammaCorrectedAALinesValue' are in the range 1 - 100
+    (inclusive).
+    'GammaCorrectedAALinesValue' can use the following target types: X Screen.
+
+  Attribute 'SliMosaicModeAvailable' (prabindh-Precision-5510:0.0): 0.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU,
+    VCS.
+
+  Attribute 'BusType' (prabindh-Precision-5510:0.0): 2.
+    The valid values for 'BusType' are in the range 0 - 3 (inclusive).
+    'BusType' is a read-only attribute.
+    'BusType' can use the following target types: X Screen, GPU, SDI Input
+    Device.
+
+  Attribute 'PCIEMaxLinkSpeed' (prabindh-Precision-5510:0.0): 5000.
+    'PCIEMaxLinkSpeed' is an integer attribute.
+    'PCIEMaxLinkSpeed' is a read-only attribute.
+    'PCIEMaxLinkSpeed' can use the following target types: X Screen, GPU, SDI
+    Input Device.
+
+  Attribute 'PCIEMaxLinkWidth' (prabindh-Precision-5510:0.0): 16.
+    The valid values for 'PCIEMaxLinkWidth' are in the range 1 - 16
+    (inclusive).
+    'PCIEMaxLinkWidth' is a read-only attribute.
+    'PCIEMaxLinkWidth' can use the following target types: X Screen, GPU, SDI
+    Input Device.
+
+  Attribute 'PCIECurrentLinkSpeed' (prabindh-Precision-5510:0.0): 5000.
+    'PCIECurrentLinkSpeed' is an integer attribute.
+    'PCIECurrentLinkSpeed' is a read-only attribute.
+    'PCIECurrentLinkSpeed' can use the following target types: X Screen, GPU,
+    SDI Input Device.
+
+  Attribute 'PCIECurrentLinkWidth' (prabindh-Precision-5510:0.0): 16.
+    'PCIECurrentLinkWidth' is an integer attribute.
+    'PCIECurrentLinkWidth' is a read-only attribute.
+    'PCIECurrentLinkWidth' can use the following target types: X Screen, GPU,
+    SDI Input Device.
+
+  Attribute 'VideoRam' (prabindh-Precision-5510:0.0): 2097152.
+    'VideoRam' is an integer attribute.
+    'VideoRam' is a read-only attribute.
+    'VideoRam' can use the following target types: X Screen, GPU.
+
+  Attribute 'Irq' (prabindh-Precision-5510:0.0): 138.
+    'Irq' is an integer attribute.
+    'Irq' is a read-only attribute.
+    'Irq' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'CUDACores' (prabindh-Precision-5510:0.0): 512.
+    'CUDACores' is an integer attribute.
+    'CUDACores' is a read-only attribute.
+    'CUDACores' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUMemoryInterface' (prabindh-Precision-5510:0.0): 128.
+    'GPUMemoryInterface' is an integer attribute.
+    'GPUMemoryInterface' is a read-only attribute.
+    'GPUMemoryInterface' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCoreTemp' (prabindh-Precision-5510:0.0): 40.
+    'GPUCoreTemp' is an integer attribute.
+    'GPUCoreTemp' is a read-only attribute.
+    'GPUCoreTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentCoreVoltage' (prabindh-Precision-5510:0.0): 0.
+    'GPUCurrentCoreVoltage' is an integer attribute.
+    'GPUCurrentCoreVoltage' is a read-only attribute.
+    'GPUCurrentCoreVoltage' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqs' (prabindh-Precision-5510:0.0): 993,2505.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'BusRate' (prabindh-Precision-5510:0.0): 16.
+    The valid values for 'BusRate' are in the range 1 - 16 (inclusive).
+    'BusRate' is a read-only attribute.
+    'BusRate' can use the following target types: X Screen, GPU, SDI Input
+    Device.
+
+  Attribute 'PCIEGen' (prabindh-Precision-5510:0.0): 2.
+    'PCIEGen' is an integer attribute.
+    'PCIEGen' is a read-only attribute.
+    'PCIEGen' can use the following target types: X Screen, GPU, SDI Input
+    Device.
+
+  Attribute 'GPUErrors' (prabindh-Precision-5510:0.0): 0.
+    'GPUErrors' is an integer attribute.
+    'GPUErrors' is a read-only attribute.
+    'GPUErrors' can use the following target types: X Screen.
+
+  Attribute 'GPUPowerSource' (prabindh-Precision-5510:0.0): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfLevel' (prabindh-Precision-5510:0.0): 2.
+    'GPUCurrentPerfLevel' is an integer attribute.
+    'GPUCurrentPerfLevel' is a read-only attribute.
+    'GPUCurrentPerfLevel' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAdaptiveClockState' (prabindh-Precision-5510:0.0): 1.
+    'GPUAdaptiveClockState' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'GPUAdaptiveClockState' is a read-only attribute.
+    'GPUAdaptiveClockState' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfigurationSupported' (prabindh-Precision-5510:0.0): 0.
+    'ECCConfigurationSupported' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'ECCConfigurationSupported' is a read-only attribute.
+    'ECCConfigurationSupported' can use the following target types: X Screen,
+    GPU.
+
+  Attribute 'GPUCurrentClockFreqsString' (prabindh-Precision-5510:0.0):
+  nvclock=993, nvclockmin=135, nvclockmax=1124, nvclockeditable=0,
+  memclock=2505, memclockmin=2505, memclockmax=2505, memclockeditable=0,
+  memTransferRate=5010, memTransferRatemin=5010, memTransferRatemax=5010,
+  memTransferRateeditable=0 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen,
+    GPU.
+
+  Attribute 'GPUPerfModes' (prabindh-Precision-5510:0.0): perf=0, nvclock=135,
+  nvclockmin=135, nvclockmax=405, nvclockeditable=0, memclock=405,
+  memclockmin=405, memclockmax=405, memclockeditable=0, memTransferRate=810,
+  memTransferRatemin=810, memTransferRatemax=810, memTransferRateeditable=0 ;
+  perf=1, nvclock=135, nvclockmin=135, nvclockmax=1124, nvclockeditable=0,
+  memclock=800, memclockmin=800, memclockmax=800, memclockeditable=0,
+  memTransferRate=1600, memTransferRatemin=1600, memTransferRatemax=1600,
+  memTransferRateeditable=0 ; perf=2, nvclock=135, nvclockmin=135,
+  nvclockmax=1124, nvclockeditable=0, memclock=2505, memclockmin=2505,
+  memclockmax=2505, memclockeditable=0, memTransferRate=5010,
+  memTransferRatemin=5010, memTransferRatemax=5010, memTransferRateeditable=0 
+    'GPUPerfModes' is a string attribute.
+    'GPUPerfModes' is a read-only attribute.
+    'GPUPerfModes' can use the following target types: X Screen, GPU.
+
+  Attribute 'GvoSupported' (prabindh-Precision-5510:0.0): 0.
+    'GvoSupported' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'GvoSupported' is a read-only attribute.
+    'GvoSupported' can use the following target types: X Screen.
+
+  Attribute 'CurrentMetaModeID' (prabindh-Precision-5510:0.0): 50.
+    'CurrentMetaModeID' is an integer attribute.
+    'CurrentMetaModeID' can use the following target types: X Screen.
+
+  Attribute 'CurrentMetaMode' (prabindh-Precision-5510:0.0): id=50,
+  switchable=yes, source=xconfig :: NULL 
+    'CurrentMetaMode' is a string attribute.
+    'CurrentMetaMode' can use the following target types: X Screen.
+
+  Attribute 'XVideoSyncToDisplayID' (prabindh-Precision-5510:0.0): 0.
+    'XVideoSyncToDisplayID' is an integer attribute.
+    'XVideoSyncToDisplayID' can use the following target types: X Screen.
+
+  Attribute 'CurrentXVideoSyncToDisplayID' (prabindh-Precision-5510:0.0): -1.
+    'CurrentXVideoSyncToDisplayID' is an integer attribute.
+    'CurrentXVideoSyncToDisplayID' is a read-only attribute.
+    'CurrentXVideoSyncToDisplayID' can use the following target types: X
+    Screen.
+
+Attributes queryable via prabindh-Precision-5510:0[gpu:0]:
+
+  Attribute 'OperatingSystem' (prabindh-Precision-5510:0[gpu:0]): 0.
+    The valid values for 'OperatingSystem' are in the range 0 - 2 (inclusive).
+    'OperatingSystem' is a read-only attribute.
+    'OperatingSystem' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvidiaDriverVersion' (prabindh-Precision-5510:0[gpu:0]): 367.44 
+    'NvidiaDriverVersion' is a string attribute.
+    'NvidiaDriverVersion' is a read-only attribute.
+    'NvidiaDriverVersion' can use the following target types: X Screen, GPU.
+
+  Attribute 'ConnectedDisplays' (prabindh-Precision-5510:0[gpu:0]):
+  0x00000000.
+    'ConnectedDisplays' is a bitmask attribute.
+    'ConnectedDisplays' is a read-only attribute.
+    'ConnectedDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'EnabledDisplays' (prabindh-Precision-5510:0[gpu:0]): 0x00000000.
+    'EnabledDisplays' is a bitmask attribute.
+    'EnabledDisplays' is a read-only attribute.
+    'EnabledDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'Depth30Allowed' (prabindh-Precision-5510:0[gpu:0]): 1.
+    'Depth30Allowed' is a boolean attribute; valid values are: 1 (on/true) and
+    0 (off/false).
+    'Depth30Allowed' is a read-only attribute.
+    'Depth30Allowed' can use the following target types: X Screen, GPU.
+
+  Attribute 'NoScanout' (prabindh-Precision-5510:0[gpu:0]): 1.
+    'NoScanout' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'NoScanout' is a read-only attribute.
+    'NoScanout' can use the following target types: X Screen, GPU.
+
+  Attribute 'SliMosaicModeAvailable' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU,
+    VCS.
+
+  Attribute 'BusType' (prabindh-Precision-5510:0[gpu:0]): 2.
+    The valid values for 'BusType' are in the range 0 - 3 (inclusive).
+    'BusType' is a read-only attribute.
+    'BusType' can use the following target types: X Screen, GPU, SDI Input
+    Device.
+
+  Attribute 'PCIEMaxLinkSpeed' (prabindh-Precision-5510:0[gpu:0]): 5000.
+    'PCIEMaxLinkSpeed' is an integer attribute.
+    'PCIEMaxLinkSpeed' is a read-only attribute.
+    'PCIEMaxLinkSpeed' can use the following target types: X Screen, GPU, SDI
+    Input Device.
+
+  Attribute 'PCIEMaxLinkWidth' (prabindh-Precision-5510:0[gpu:0]): 16.
+    The valid values for 'PCIEMaxLinkWidth' are in the range 1 - 16
+    (inclusive).
+    'PCIEMaxLinkWidth' is a read-only attribute.
+    'PCIEMaxLinkWidth' can use the following target types: X Screen, GPU, SDI
+    Input Device.
+
+  Attribute 'PCIECurrentLinkSpeed' (prabindh-Precision-5510:0[gpu:0]): 5000.
+    'PCIECurrentLinkSpeed' is an integer attribute.
+    'PCIECurrentLinkSpeed' is a read-only attribute.
+    'PCIECurrentLinkSpeed' can use the following target types: X Screen, GPU,
+    SDI Input Device.
+
+  Attribute 'PCIECurrentLinkWidth' (prabindh-Precision-5510:0[gpu:0]): 16.
+    'PCIECurrentLinkWidth' is an integer attribute.
+    'PCIECurrentLinkWidth' is a read-only attribute.
+    'PCIECurrentLinkWidth' can use the following target types: X Screen, GPU,
+    SDI Input Device.
+
+  Attribute 'VideoRam' (prabindh-Precision-5510:0[gpu:0]): 2097152.
+    'VideoRam' is an integer attribute.
+    'VideoRam' is a read-only attribute.
+    'VideoRam' can use the following target types: X Screen, GPU.
+
+  Attribute 'TotalDedicatedGPUMemory' (prabindh-Precision-5510:0[gpu:0]):
+  2002.
+    'TotalDedicatedGPUMemory' is an integer attribute.
+    'TotalDedicatedGPUMemory' is a read-only attribute.
+    'TotalDedicatedGPUMemory' can use the following target types: GPU.
+
+  Attribute 'UsedDedicatedGPUMemory' (prabindh-Precision-5510:0[gpu:0]): 184.
+    'UsedDedicatedGPUMemory' is an integer attribute.
+    'UsedDedicatedGPUMemory' is a read-only attribute.
+    'UsedDedicatedGPUMemory' can use the following target types: GPU.
+
+  Attribute 'Irq' (prabindh-Precision-5510:0[gpu:0]): 138.
+    'Irq' is an integer attribute.
+    'Irq' is a read-only attribute.
+    'Irq' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'CUDACores' (prabindh-Precision-5510:0[gpu:0]): 512.
+    'CUDACores' is an integer attribute.
+    'CUDACores' is a read-only attribute.
+    'CUDACores' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUMemoryInterface' (prabindh-Precision-5510:0[gpu:0]): 128.
+    'GPUMemoryInterface' is an integer attribute.
+    'GPUMemoryInterface' is a read-only attribute.
+    'GPUMemoryInterface' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCoreTemp' (prabindh-Precision-5510:0[gpu:0]): 40.
+    'GPUCoreTemp' is an integer attribute.
+    'GPUCoreTemp' is a read-only attribute.
+    'GPUCoreTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentCoreVoltage' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'GPUCurrentCoreVoltage' is an integer attribute.
+    'GPUCurrentCoreVoltage' is a read-only attribute.
+    'GPUCurrentCoreVoltage' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqs' (prabindh-Precision-5510:0[gpu:0]):
+  993,2505.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'BusRate' (prabindh-Precision-5510:0[gpu:0]): 16.
+    The valid values for 'BusRate' are in the range 1 - 16 (inclusive).
+    'BusRate' is a read-only attribute.
+    'BusRate' can use the following target types: X Screen, GPU, SDI Input
+    Device.
+
+  Attribute 'PCIDomain' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'PCIDomain' is an integer attribute.
+    'PCIDomain' is a read-only attribute.
+    'PCIDomain' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIBus' (prabindh-Precision-5510:0[gpu:0]): 1.
+    'PCIBus' is an integer attribute.
+    'PCIBus' is a read-only attribute.
+    'PCIBus' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIDevice' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'PCIDevice' is an integer attribute.
+    'PCIDevice' is a read-only attribute.
+    'PCIDevice' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIFunc' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'PCIFunc' is an integer attribute.
+    'PCIFunc' is a read-only attribute.
+    'PCIFunc' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIID' (prabindh-Precision-5510:0[gpu:0]): 4318,5041.
+    'PCIID' is a packed integer attribute.
+    'PCIID' is a read-only attribute.
+    'PCIID' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIEGen' (prabindh-Precision-5510:0[gpu:0]): 2.
+    'PCIEGen' is an integer attribute.
+    'PCIEGen' is a read-only attribute.
+    'PCIEGen' can use the following target types: X Screen, GPU, SDI Input
+    Device.
+
+  Attribute 'GPUPowerSource' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfLevel' (prabindh-Precision-5510:0[gpu:0]): 2.
+    'GPUCurrentPerfLevel' is an integer attribute.
+    'GPUCurrentPerfLevel' is a read-only attribute.
+    'GPUCurrentPerfLevel' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAdaptiveClockState' (prabindh-Precision-5510:0[gpu:0]): 1.
+    'GPUAdaptiveClockState' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'GPUAdaptiveClockState' is a read-only attribute.
+    'GPUAdaptiveClockState' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPowerMizerMode' (prabindh-Precision-5510:0[gpu:0]): 2.
+    Valid values for 'GPUPowerMizerMode' are: 0, 1, 2 and 3.
+    'GPUPowerMizerMode' can use the following target types: GPU.
+
+  Attribute 'GPUPowerMizerDefaultMode' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'GPUPowerMizerDefaultMode' is an integer attribute.
+    'GPUPowerMizerDefaultMode' is a read-only attribute.
+    'GPUPowerMizerDefaultMode' can use the following target types: GPU.
+
+  Attribute 'ECCSupported' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'ECCSupported' is a boolean attribute; valid values are: 1 (on/true) and 0
+    (off/false).
+    'ECCSupported' is a read-only attribute.
+    'ECCSupported' can use the following target types: GPU.
+
+  Attribute 'ECCConfigurationSupported' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'ECCConfigurationSupported' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'ECCConfigurationSupported' is a read-only attribute.
+    'ECCConfigurationSupported' can use the following target types: X Screen,
+    GPU.
+
+  Attribute 'BaseMosaic' (prabindh-Precision-5510:0[gpu:0]): 0.
+    Valid values for 'BaseMosaic' are: 0.
+    'BaseMosaic' is a read-only attribute.
+    'BaseMosaic' can use the following target types: GPU.
+
+  Attribute 'MultiGpuMasterPossible' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'MultiGpuMasterPossible' is a boolean attribute; valid values are: 1
+    (on/true) and 0 (off/false).
+    'MultiGpuMasterPossible' is a read-only attribute.
+    'MultiGpuMasterPossible' can use the following target types: GPU.
+
+  Attribute 'VideoEncoderUtilization' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'VideoEncoderUtilization' is an integer attribute.
+    'VideoEncoderUtilization' is a read-only attribute.
+    'VideoEncoderUtilization' can use the following target types: GPU.
+
+  Attribute 'VideoDecoderUtilization' (prabindh-Precision-5510:0[gpu:0]): 0.
+    'VideoDecoderUtilization' is an integer attribute.
+    'VideoDecoderUtilization' is a read-only attribute.
+    'VideoDecoderUtilization' can use the following target types: GPU.
+
+  Attribute 'GPUCurrentClockFreqsString' (prabindh-Precision-5510:0[gpu:0]):
+  nvclock=993, nvclockmin=135, nvclockmax=1124, nvclockeditable=0,
+  memclock=2505, memclockmin=2505, memclockmax=2505, memclockeditable=0,
+  memTransferRate=5010, memTransferRatemin=5010, memTransferRatemax=5010,
+  memTransferRateeditable=0 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen,
+    GPU.
+
+  Attribute 'GPUPerfModes' (prabindh-Precision-5510:0[gpu:0]): perf=0,
+  nvclock=135, nvclockmin=135, nvclockmax=405, nvclockeditable=0, memclock=405,
+  memclockmin=405, memclockmax=405, memclockeditable=0, memTransferRate=810,
+  memTransferRatemin=810, memTransferRatemax=810, memTransferRateeditable=0 ;
+  perf=1, nvclock=135, nvclockmin=135, nvclockmax=1124, nvclockeditable=0,
+  memclock=800, memclockmin=800, memclockmax=800, memclockeditable=0,
+  memTransferRate=1600, memTransferRatemin=1600, memTransferRatemax=1600,
+  memTransferRateeditable=0 ; perf=2, nvclock=135, nvclockmin=135,
+  nvclockmax=1124, nvclockeditable=0, memclock=2505, memclockmin=2505,
+  memclockmax=2505, memclockeditable=0, memTransferRate=5010,
+  memTransferRatemin=5010, memTransferRatemax=5010, memTransferRateeditable=0 
+    'GPUPerfModes' is a string attribute.
+    'GPUPerfModes' is a read-only attribute.
+    'GPUPerfModes' can use the following target types: X Screen, GPU.
+
+  Attribute 'GpuUUID' (prabindh-Precision-5510:0[gpu:0]):
+  GPU-34dbf557-b6e3-ca52-f2f4-5fe733129471 
+    'GpuUUID' is a string attribute.
+    'GpuUUID' is a read-only attribute.
+    'GpuUUID' can use the following target types: GPU.
+
+  Attribute 'GPUUtilization' (prabindh-Precision-5510:0[gpu:0]): graphics=7,
+  memory=1, video=0, PCIe=1 
+    'GPUUtilization' is a string attribute.
+    'GPUUtilization' is a read-only attribute.
+    'GPUUtilization' can use the following target types: GPU.
+
+Attributes queryable via prabindh-Precision-5510:0[thermalsensor:0]:
+
+  Attribute 'ThermalSensorReading'
+  (prabindh-Precision-5510:0[thermalsensor:0]): 40.
+    The valid values for 'ThermalSensorReading' are in the range 0 - 127
+    (inclusive).
+    'ThermalSensorReading' is a read-only attribute.
+    'ThermalSensorReading' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorProvider'
+  (prabindh-Precision-5510:0[thermalsensor:0]): 1.
+    'ThermalSensorProvider' is an integer attribute.
+    'ThermalSensorProvider' is a read-only attribute.
+    'ThermalSensorProvider' can use the following target types: Thermal
+    Sensor.
+
+  Attribute 'ThermalSensorTarget' (prabindh-Precision-5510:0[thermalsensor:0]):
+  1.
+    'ThermalSensorTarget' is an integer attribute.
+    'ThermalSensorTarget' is a read-only attribute.
+    'ThermalSensorTarget' can use the following target types: Thermal Sensor.
+
