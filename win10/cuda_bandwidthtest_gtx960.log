@@ -1,0 +1,25 @@
+C:\ProgramData\NVIDIA Corporation\CUDA Samples\v8.0\bin\win64\Debug>bandwidthTest.exe
+[CUDA Bandwidth Test] - Starting...
+Running on...
+
+ Device 0: GeForce GTX 960
+ Quick Mode
+
+ Host to Device Bandwidth, 1 Device(s)
+ PINNED Memory Transfers
+   Transfer Size (Bytes)        Bandwidth(MB/s)
+   33554432                     12540.5
+
+ Device to Host Bandwidth, 1 Device(s)
+ PINNED Memory Transfers
+   Transfer Size (Bytes)        Bandwidth(MB/s)
+   33554432                     12839.7
+
+ Device to Device Bandwidth, 1 Device(s)
+ PINNED Memory Transfers
+   Transfer Size (Bytes)        Bandwidth(MB/s)
+   33554432                     79648.1
+
+Result = PASS
+
+NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.
