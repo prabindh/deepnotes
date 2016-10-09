@@ -1,3 +1,6 @@
+NOTE: for running the TESTS, ie, make runtest, opencv3 is required.
+
+======
 
 cd caffe\build
 cmake ..

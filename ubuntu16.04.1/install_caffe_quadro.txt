@@ -1,0 +1,52 @@
+-- ******************* Caffe Configuration Summary *******************
+-- General:
+--   Version           :   0.15.11
+--   Git               :   v0.15.11
+--   System            :   Linux
+--   C++ compiler      :   /usr/bin/c++
+--   Release CXX flags :   -O3 -DNDEBUG -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
+--   Debug CXX flags   :   -g -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
+--   Build type        :   Release
+-- 
+--   BUILD_SHARED_LIBS :   ON
+--   BUILD_python      :   ON
+--   BUILD_matlab      :   OFF
+--   BUILD_docs        :   ON
+--   CPU_ONLY          :   OFF
+--   USE_OPENCV        :   ON
+--   USE_LEVELDB       :   ON
+--   USE_LMDB          :   ON
+--   ALLOW_LMDB_NOLOCK :   OFF
+-- 
+-- Dependencies:
+--   BLAS              :   Yes (Atlas)
+--   Boost             :   Yes (ver. 1.58)
+--   glog              :   Yes
+--   gflags            :   Yes
+--   protobuf          :   Yes (ver. 2.6.1)
+--   lmdb              :   Yes (ver. 0.9.17)
+--   LevelDB           :   Yes (ver. 1.18)
+--   Snappy            :   Yes (ver. 1.1.3)
+--   OpenCV            :   Yes (ver. 3.1.0)
+--   CUDA              :   Yes (ver. 8.0)
+-- 
+-- NVIDIA CUDA:
+--   Target GPU(s)     :   Auto
+--   GPU arch(s)       :   sm_50
+--   cuDNN             :   Yes (ver. 5.1.5)
+--   NCCL              :   Not found
+-- 
+-- Python:
+--   Interpreter       :   /usr/bin/python2.7 (ver. 2.7.12)
+--   Libraries         :   /usr/lib/x86_64-linux-gnu/libpython2.7.so (ver 2.7.12)
+--   NumPy             :   /home/prabindh/.local/lib/python2.7/site-packages/numpy/core/include (ver 1.11.0)
+-- 
+-- Documentaion:
+--   Doxygen           :   /usr/bin/doxygen (1.8.11)
+--   config_file       :   /home/prabindh/caffe/.Doxyfile
+-- 
+-- Install:
+--   Install path      :   /home/prabindh/caffe/build/install
+-- 
+-- Configuring done
+
