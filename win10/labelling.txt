@@ -1,0 +1,3 @@
+Euclid (github.com\prabindh\euclid) is a Tk based interactive labelling tool. Currently handles 3 classes, easily modifiable to any number.
+
+Outputs to Kitti compatible format, for use in Detectnet.
