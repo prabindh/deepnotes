@@ -1,0 +1,14 @@
+1. clone v3.6 (C++) tag from
+
+https://github.com/prabindh/darknet/tree/v3.6
+
+2. Perform below at terminal (after configuring GPU=1, CUDNN=1, and OPENCV=1 if available in platform)
+
+> make darknet-cpp (or make darknet if OPENCV is not needed)
+
+3. The above step will result in darknet-cpp binary (or darknet, if C option is chosen)
+
+4. Run per the documentation at,
+
+http://pjreddie.com/darknet/
+
