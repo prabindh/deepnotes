@@ -1,0 +1,2 @@
+ffmpeg -i infile.avi -f image2 image-%03d.jpg
+
