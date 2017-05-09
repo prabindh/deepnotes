@@ -1,6 +1,7 @@
 Since Nv driver is already installed, do not select any Display/Graphics/OpenGL option in the cuda installer. Only install the CUDA toolkit and samples.
 
 For 16.04.1, also need to run the Patch file - cuda_8.0.27.1_linux.run, to enable support for GCC5
+==> May 2017 update - the above patch step is not needed. Just download the .deb installer cuda-repo-ubuntu1604-8-0-local-ga2_8.0.61-1_amd64.deb and install.
 
 For building CUDA, some Makefiles have hardcoded versions of NVIDIA driver, so manually needs to be changed to the current version (ex NVIDIA-367). Also, GLU and other support packages are required for GL / visualisation samples.
 
