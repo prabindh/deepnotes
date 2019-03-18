@@ -9,6 +9,16 @@ RUN apt-get install -y python-imaging-tk
 RUN apt-get install -y python3-pil.imagetk
 RUN apt-get install -y python3-pip
 RUN apt-get install -y git
+RUN wget "https://github.com/prabindh/darknet/archive/master.zip" -P /tmp/
+RUN mkdir -p /home/developer/work/darknet
+RUN cd /home/developer/work/darknet/
+RUN tar -xvf /tmp/master.zip
+RUN wget "https://github.com/prabindh/euclid/archive/master.zip" -P /tmp/
+RUN mkdir -p /home/developer/work/euclid
+RUN cd /home/developer/work/euclid
+RUN tar -xvf /tmp/master.zip
+
+
 
 # Replace 1000 with your user / group id
 RUN export uid=1000 gid=1000 && \
@@ -22,6 +32,3 @@ RUN export uid=1000 gid=1000 && \
 USER developer
 ENV HOME /home/developer
 
-RUN mkdir /home/developer/work/
-RUN cd /home/developer/work/
-RUN pip3 install git+https://github.com/prabindh/euclid.git#egg=euclid
