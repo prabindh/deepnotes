@@ -27,6 +27,9 @@ Generating code
 Finished generating code
 - Download this model: "http://dl.yf.io/dla/models\imagenet\dla34-ba72cf86.pth" to CenterNet\models\dla34-ba72cf86.pth
 
+## References
+https://github.com/xingyizhou/CenterNet/issues/7
+
 #Results
 ![](centernet.png)
 Perform below, for demonstration with webcam,
