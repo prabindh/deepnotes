@@ -12,19 +12,21 @@ Changed torch.backends.cudnn.enabled to False
 - cd CenterNet\src\lib\models\networks, delete DCNv2 folder and clone https://github.com/prabindh/DCNv2
 - from src/DCNv2, perform "python setup.py build develop"
 Should have below log after this.
-Installed <>\centernet\src\lib\models\networks\dcnv2
-Processing dependencies for DCNv2==0.1
-Finished processing dependencies for DCNv2==0.1
+
+`Installed <>\centernet\src\lib\models\networks\dcnv2`
+`Processing dependencies for DCNv2==0.1`
+`Finished processing dependencies for DCNv2==0.1`
 - nms appears mandatory, getting below error without it - 
-(CenterNet) <>\CenterNet\src>python demo.py ctdet --demo /path/to/image/or/folder/or/video --load_model ../models/ctdet_coco_dla_2x.pth
-Traceback (most recent call last):
-  File "demo.py", line 11, in <module>
-ModuleNotFoundError: No module named 'external.nms'
-- Adding nms using (CenterNet) <>\CenterNet\src\lib\external>python setup.py build_ext --inplace
+`(CenterNet) <>\CenterNet\src>python demo.py ctdet --demo /path/to/image/or/folder/or/video --load_model ../models/ctdet_coco_dla_2x.pth`
+`Traceback (most recent call last):`
+ ` File "demo.py", line 11, in <module>`
+`ModuleNotFoundError: No module named 'external.nms'`
+- Adding nms using 
+`(CenterNet) <>\CenterNet\src\lib\external>python setup.py build_ext --inplace`
 had to remove the additional options "extra_compile_args" from setup.py to avoid errors. This should result in below log.
-   Creating library build\temp.win-amd64-3.6\Release\nms.cp36-win_amd64.lib and object build\temp.win-amd64-3.6\Release\nms.cp36-win_amd64.exp
-Generating code
-Finished generating code
+`   Creating library build\temp.win-amd64-3.6\Release\nms.cp36-win_amd64.lib and object build\temp.win-amd64-3.6\Release\nms.cp36-win_amd64.exp`
+`Generating code`
+`Finished generating code`
 - Download this model: "http://dl.yf.io/dla/models\imagenet\dla34-ba72cf86.pth" to CenterNet\models\dla34-ba72cf86.pth
 
 ## References
