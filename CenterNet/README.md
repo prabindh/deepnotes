@@ -12,7 +12,7 @@ Changed torch.backends.cudnn.enabled to False
 - cd CenterNet\src\lib\models\networks, delete DCNv2 folder and clone https://github.com/prabindh/DCNv2
 - from src/DCNv2, perform "python setup.py build develop"
 Should have below log after this.
-Installed c:\users\psundareson\tools\algorithms\deeplearning\centernet\src\lib\models\networks\dcnv2
+Installed <>\centernet\src\lib\models\networks\dcnv2
 Processing dependencies for DCNv2==0.1
 Finished processing dependencies for DCNv2==0.1
 - nms appears mandatory, getting below error without it - 
