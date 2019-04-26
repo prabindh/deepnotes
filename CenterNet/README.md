@@ -34,20 +34,20 @@ https://github.com/xingyizhou/CenterNet/issues/7
 
 #Results
 ![](centernet.png)
-Perform below, for demonstration with webcam,
-CenterNet\src>python demo.py ctdet --demo webcam --load_model ../models/ctdet_coco_dla_2x.pth
-Fix size testing.
-training chunk_sizes: [32]
-The output will be saved to  CenterNet\src\lib\..\..\exp\ctdet\default
-heads {'hm': 80, 'wh': 2, 'reg': 2}
-Creating model...
-loaded ../models/ctdet_coco_dla_2x.pth, epoch 230
-tot 0.301s |load 0.000s |pre 0.086s |net 0.194s |dec 0.011s |post 0.009s |merge 0.002s |
-tot 0.307s |load 0.000s |pre 0.084s |net 0.192s |dec 0.015s |post 0.014s |merge 0.003s |
-tot 0.309s |load 0.000s |pre 0.086s |net 0.198s |dec 0.012s |post 0.012s |merge 0.001s |
-tot 0.295s |load 0.000s |pre 0.079s |net 0.187s |dec 0.016s |post 0.012s |merge 0.002s |
-tot 0.296s |load 0.001s |pre 0.080s |net 0.194s |dec 0.012s |post 0.009s |merge 0.002s |
-tot 0.294s |load 0.000s |pre 0.077s |net 0.196s |dec 0.011s |post 0.009s |merge 0.002s |
+`Perform below, for demonstration with webcam,`
+`CenterNet\src>python demo.py ctdet --demo webcam --load_model ../models/ctdet_coco_dla_2x.pth`
+`Fix size testing.`
+`training chunk_sizes: [32]`
+`The output will be saved to  CenterNet\src\lib\..\..\exp\ctdet\default`
+`heads {'hm': 80, 'wh': 2, 'reg': 2}`
+`Creating model...`
+`loaded ../models/ctdet_coco_dla_2x.pth, epoch 230`
+`tot 0.301s |load 0.000s |pre 0.086s |net 0.194s |dec 0.011s |post 0.009s |merge 0.002s |`
+`tot 0.307s |load 0.000s |pre 0.084s |net 0.192s |dec 0.015s |post 0.014s |merge 0.003s |`
+`tot 0.309s |load 0.000s |pre 0.086s |net 0.198s |dec 0.012s |post 0.012s |merge 0.001s |`
+`tot 0.295s |load 0.000s |pre 0.079s |net 0.187s |dec 0.016s |post 0.012s |merge 0.002s |`
+`tot 0.296s |load 0.001s |pre 0.080s |net 0.194s |dec 0.012s |post 0.009s |merge 0.002s |`
+`tot 0.294s |load 0.000s |pre 0.077s |net 0.196s |dec 0.011s |post 0.009s |merge 0.002s |`
 
 This should run webcam demo if a camera is connected.
 
