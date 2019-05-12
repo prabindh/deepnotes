@@ -7,4 +7,4 @@ Notes for DL
 
 Performance checks
 
-Full description and setup info at http://www.gpupowered.org/
+Full description and setup info at https://www.gpupowered.org/
