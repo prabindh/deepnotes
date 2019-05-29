@@ -1,0 +1,7 @@
+By default OpenCV4 does not enable package config (pkg-config pc files) generation anymore. But in 4.1.0 atleast, we can force enabling this during configure as below.
+
+Follow instructions in http://www.linuxfromscratch.org/blfs/view/svn/general/opencv.html to download
+In cmake configure step, add this "-DOPENCV_GENERATE_PKGCONFIG=ON", and make and make install as described
+Now, pkg-config can be used for opencv, with the package name of "opencv4". Detailed output is mentioned in the post https://github.com/opencv/opencv/issues/13154#issuecomment-495978535
+
+Also refer to http://gpupowered.org/
