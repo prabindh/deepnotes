@@ -1,0 +1,4 @@
+    params_values = pickle.load(pkl_file)
+_pickle.UnpicklingError: STACK_GLOBAL requires str
+
+This indicates that the input file is not a pickle file. Use the correct pickled file generated earlier using "pickle.dump"
