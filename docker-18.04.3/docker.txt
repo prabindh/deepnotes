@@ -24,7 +24,7 @@ sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/
 
 sudo apt-get update
 
-sudo apt-get install cuda-drivers
+sudo apt-get install cuda
 
 And then do linux post-install steps, mentioned in the page.
 
