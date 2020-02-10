@@ -1,0 +1,18 @@
+docker run --device=/dev/video0:/dev/video0 -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -p 5000:5000 -p 8888:8888 -it spmallick/opencv-docker:opencv /bin/bash
+
+Save and load locally:
+docker save test_image:latest | gzip > test_image_latest.tar.gz
+
+Once this command has been completed, one could copy the image to a server and import it as follows:
+
+docker load --input latestversion-1.0.0.tar
+
+Build docker image:
+~/work/docker$ docker build -t test_image .
+
+docker run -p ipaddr:1235:1235 test_image ./test-app "0.0.0.0" 1235
+(0.0.0.0 binds to all IPs of host)
+
+docker ps --> Get id of container to stop
+docker stop <id> --> Stop container run
+
