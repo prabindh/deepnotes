@@ -1,0 +1,328 @@
+ ../../print_env.sh 
+<details><summary>Click here to see environment details</summary><pre>
+     
+     **git***
+     commit edbba233f00db060955077644cfa88143929bca8 (HEAD -> branch-0.13, origin/branch-0.13, origin/HEAD)
+     Author: Prabindh Sundareson <prabindh@yahoo.com>
+     Date:   Tue Feb 18 10:31:43 2020 +0530
+     
+     Fix make issue /usr/bin/ld: cannot find -lNVCategory
+     **git submodules***
+     b165e1fb11eeea64ccf95053e40f2424312599cc ../../thirdparty/cub (v1.7.1)
+     bcd545071c7a5ddb28cb6576afc6399eb1286c43 ../../thirdparty/jitify (remotes/origin/hotfix/builtin-header-lookups-6-gbcd5450)
+     cdcda484d0c7db114ea29c3b33429de5756ecfd8 ../../thirdparty/libcudacxx (0.8.1-99-gcdcda48)
+     a97a7380c76346c22bb67b93695bed19592afad2 ../../thirdparty/libcudacxx/libcxx (heads/rapidsai-interop)
+     
+     ***OS Information***
+     DISTRIB_ID=Ubuntu
+     DISTRIB_RELEASE=18.04
+     DISTRIB_CODENAME=bionic
+     DISTRIB_DESCRIPTION="Ubuntu 18.04.3 LTS"
+     NAME="Ubuntu"
+     VERSION="18.04.3 LTS (Bionic Beaver)"
+     ID=ubuntu
+     ID_LIKE=debian
+     PRETTY_NAME="Ubuntu 18.04.3 LTS"
+     VERSION_ID="18.04"
+     HOME_URL="https://www.ubuntu.com/"
+     SUPPORT_URL="https://help.ubuntu.com/"
+     BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+     PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+     VERSION_CODENAME=bionic
+     UBUNTU_CODENAME=bionic
+     Linux prabindh-ubntu 5.3.0-28-generic #30~18.04.1-Ubuntu SMP Fri Jan 17 06:14:09 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+     
+     ***GPU Information***
+     Tue Feb 18 13:36:07 2020
+     +-----------------------------------------------------------------------------+
+     | NVIDIA-SMI 440.48.02    Driver Version: 440.48.02    CUDA Version: 10.2     |
+     |-------------------------------+----------------------+----------------------+
+     | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+     | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+     |===============================+======================+======================|
+     |   0  TITAN V             Off  | 00000000:01:00.0  On |                  N/A |
+     | 31%   46C    P8    27W / 250W |    731MiB / 12063MiB |     16%      Default |
+     +-------------------------------+----------------------+----------------------+
+     
+     +-----------------------------------------------------------------------------+
+     | Processes:                                                       GPU Memory |
+     |  GPU       PID   Type   Process name                             Usage      |
+     |=============================================================================|
+     |    0      1298      G   /usr/lib/xorg/Xorg                            18MiB |
+     |    0      1346      G   /usr/bin/gnome-shell                          75MiB |
+     |    0      5957      G   /usr/lib/xorg/Xorg                           170MiB |
+     |    0      6062      G   /usr/bin/gnome-shell                         205MiB |
+     |    0     27663      G   ...dh/.local/share/Steam/ubuntu12_32/steam    16MiB |
+     |    0     27679      G   ./steamwebhelper                               8MiB |
+     |    0     27702      G   ...AAAAAAAAAAAAAAgAAAAAAAAA --shared-files   216MiB |
+     |    0     27720      G   ...logs/cef_log.txt --service-request-chan    15MiB |
+     +-----------------------------------------------------------------------------+
+     
+     ***CPU***
+     Architecture:        x86_64
+     CPU op-mode(s):      32-bit, 64-bit
+     Byte Order:          Little Endian
+     CPU(s):              4
+     On-line CPU(s) list: 0-3
+     Thread(s) per core:  1
+     Core(s) per socket:  4
+     Socket(s):           1
+     NUMA node(s):        1
+     Vendor ID:           GenuineIntel
+     CPU family:          6
+     Model:               94
+     Model name:          Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz
+     Stepping:            3
+     CPU MHz:             1200.032
+     CPU max MHz:         3300.0000
+     CPU min MHz:         800.0000
+     BogoMIPS:            5399.81
+     Virtualization:      VT-x
+     L1d cache:           32K
+     L1i cache:           32K
+     L2 cache:            256K
+     L3 cache:            6144K
+     NUMA node0 CPU(s):   0-3
+     Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+     
+     ***CMake***
+     /home/prabindh/anaconda3/envs/cudf_dev/bin/cmake
+     cmake version 3.16.4
+     
+     CMake suite maintained and supported by Kitware (kitware.com/cmake).
+     
+     ***g++***
+     /usr/bin/g++
+     g++ (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+     Copyright (C) 2017 Free Software Foundation, Inc.
+     This is free software; see the source for copying conditions.  There is NO
+     warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     
+     
+     ***nvcc***
+     /usr/local/cuda-10.1/bin/nvcc
+     nvcc: NVIDIA (R) Cuda compiler driver
+     Copyright (c) 2005-2019 NVIDIA Corporation
+     Built on Sun_Jul_28_19:07:16_PDT_2019
+     Cuda compilation tools, release 10.1, V10.1.243
+     
+     ***Python***
+     /home/prabindh/anaconda3/envs/cudf_dev/bin/python
+     Python 3.7.6
+     
+     ***Environment Variables***
+     PATH                            : /usr/local/cuda-10.1/bin:/usr/local/cuda-10.1/NsightCompute-2019.1:/home/prabindh/anaconda3/envs/cudf_dev/bin:/home/prabindh/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+     LD_LIBRARY_PATH                 : :/usr/local/TensorRT-6.0.1.5/lib:/usr/local/cuda/lib64
+     NUMBAPRO_NVVM                   :
+     NUMBAPRO_LIBDEVICE              :
+     CONDA_PREFIX                    : /home/prabindh/anaconda3/envs/cudf_dev
+     PYTHON_PATH                     :
+     
+     ***conda packages***
+     /home/prabindh/anaconda3/condabin/conda
+     # packages in environment at /home/prabindh/anaconda3/envs/cudf_dev:
+     #
+     # Name                    Version                   Build  Channel
+     _libgcc_mutex             0.1                 conda_forge    conda-forge
+     _openmp_mutex             4.5                       0_gnu    conda-forge
+     alabaster                 0.7.12                     py_0    conda-forge
+     appdirs                   1.4.3                      py_1    conda-forge
+     arrow-cpp                 0.15.0           py37h090bef1_2    conda-forge
+     aspy.yaml                 1.3.0                      py_0    conda-forge
+     attrs                     19.3.0                     py_0    conda-forge
+     babel                     2.8.0                      py_0    conda-forge
+     backcall                  0.1.0                      py_0    conda-forge
+     black                     19.10b0                  py37_0    conda-forge
+     bleach                    3.1.0                      py_0    conda-forge
+     bokeh                     1.4.0                    py37_0    conda-forge
+     boost-cpp                 1.70.0               h8e57a91_2    conda-forge
+     brotli                    1.0.7             he1b5a44_1000    conda-forge
+     bzip2                     1.0.8                h516909a_2    conda-forge
+     c-ares                    1.15.0            h516909a_1001    conda-forge
+     ca-certificates           2019.11.28           hecc5488_0    conda-forge
+     cached-property           1.5.1                      py_0    conda-forge
+     certifi                   2019.11.28               py37_0    conda-forge
+     cffi                      1.13.2           py37h8022711_0    conda-forge
+     cfgv                      3.0.0                      py_0    conda-forge
+     chardet                   3.0.4                 py37_1003    conda-forge
+     click                     7.0                        py_0    conda-forge
+     cloudpickle               1.3.0                      py_0    conda-forge
+     cmake                     3.16.4               h28c56e5_0    conda-forge
+     cmake_setuptools          0.1.3                      py_0    rapidsai-nightly
+     commonmark                0.9.1                      py_0    conda-forge
+     cryptography              2.8              py37h72c5cf5_1    conda-forge
+     cudatoolkit               10.1.243             h6bb024c_0    nvidia
+     cudnn                     7.6.0                cuda10.1_0    nvidia
+     cupy                      7.2.0            py37h0c141eb_0    conda-forge
+     cython                    0.29.15          py37he1b5a44_0    conda-forge
+     cytoolz                   0.10.1           py37h516909a_0    conda-forge
+     dask                      2.10.1+32.gd676b2d8          pypi_0    pypi
+     decorator                 4.4.1                      py_0    conda-forge
+     defusedxml                0.6.0                      py_0    conda-forge
+     distributed               2.10.0+40.gcc7ecdf2          pypi_0    pypi
+     dlpack                    0.2                  he1b5a44_1    conda-forge
+     docutils                  0.16                     py37_0    conda-forge
+     double-conversion         3.1.5                he1b5a44_2    conda-forge
+     editdistance              0.5.3            py37he1b5a44_0    conda-forge
+     entrypoints               0.3                   py37_1000    conda-forge
+     expat                     2.2.9                he1b5a44_2    conda-forge
+     fastavro                  0.22.9           py37h516909a_0    conda-forge
+     fastrlock                 0.4             py37he1b5a44_1000    conda-forge
+     flake8                    3.7.9                    py37_0    conda-forge
+     flatbuffers               1.11.0               he1b5a44_0    conda-forge
+     freetype                  2.10.0               he983fc9_1    conda-forge
+     fsspec                    0.6.2                      py_0    conda-forge
+     future                    0.18.2                   py37_0    conda-forge
+     gflags                    2.2.2             he1b5a44_1002    conda-forge
+     glog                      0.4.0                he1b5a44_1    conda-forge
+     gmp                       6.2.0                he1b5a44_1    conda-forge
+     grpc-cpp                  1.23.0               h18db393_0    conda-forge
+     heapdict                  1.0.1                      py_0    conda-forge
+     hypothesis                5.5.4                      py_0    conda-forge
+     icu                       64.2                 he1b5a44_1    conda-forge
+     identify                  1.4.11                     py_0    conda-forge
+     idna                      2.8                   py37_1000    conda-forge
+     imagesize                 1.2.0                      py_0    conda-forge
+     importlib_metadata        1.5.0                    py37_0    conda-forge
+     ipykernel                 5.1.4            py37h5ca1d4c_0    conda-forge
+     ipython                   7.12.0           py37h5ca1d4c_0    conda-forge
+     ipython_genutils          0.2.0                      py_1    conda-forge
+     isort                     4.3.21                   py37_0    conda-forge
+     jedi                      0.16.0                   py37_0    conda-forge
+     jinja2                    2.11.1                     py_0    conda-forge
+     jpeg                      9c                h14c3975_1001    conda-forge
+     jsonschema                3.2.0                    py37_0    conda-forge
+     jupyter_client            5.3.4                    py37_1    conda-forge
+     jupyter_core              4.6.2                    py37_0    conda-forge
+     krb5                      1.16.4               h2fd8d38_0    conda-forge
+     ld_impl_linux-64          2.33.1               h53a641e_8    conda-forge
+     libblas                   3.8.0               14_openblas    conda-forge
+     libcblas                  3.8.0               14_openblas    conda-forge
+     libcurl                   7.68.0               hda55be3_0    conda-forge
+     libedit                   3.1.20170329      hf8c457e_1001    conda-forge
+     libevent                  2.1.10               h72c5cf5_0    conda-forge
+     libffi                    3.2.1             he1b5a44_1006    conda-forge
+     libgcc-ng                 9.2.0                h24d8f2e_2    conda-forge
+     libgfortran-ng            7.3.0                hdf63c60_5    conda-forge
+     libgomp                   9.2.0                h24d8f2e_2    conda-forge
+     liblapack                 3.8.0               14_openblas    conda-forge
+     libllvm8                  8.0.1                hc9558a2_0    conda-forge
+     libopenblas               0.3.7                h5ec1e0e_6    conda-forge
+     libpng                    1.6.37               hed695b0_0    conda-forge
+     libprotobuf               3.8.0                h8b12597_0    conda-forge
+     librmm                    0.13.0a200217      cuda10.1_191    rapidsai-nightly
+     libsodium                 1.0.17               h516909a_0    conda-forge
+     libssh2                   1.8.2                h22169c7_2    conda-forge
+     libstdcxx-ng              9.2.0                hdf63c60_2    conda-forge
+     libtiff                   4.1.0                hfc65ed5_0    conda-forge
+     libuv                     1.34.0               h516909a_0    conda-forge
+     llvmlite                  0.31.0           py37h8b12597_0    conda-forge
+     locket                    0.2.0                      py_2    conda-forge
+     lz4-c                     1.8.3             he1b5a44_1001    conda-forge
+     markdown                  3.0.1                    pypi_0    pypi
+     markupsafe                1.1.1            py37h516909a_0    conda-forge
+     mccabe                    0.6.1                      py_1    conda-forge
+     mistune                   0.8.4           py37h516909a_1000    conda-forge
+     more-itertools            8.2.0                      py_0    conda-forge
+     msgpack-python            0.6.2            py37hc9558a2_0    conda-forge
+     mypy_extensions           0.4.3                    py37_0    conda-forge
+     nbconvert                 5.6.1                    py37_0    conda-forge
+     nbformat                  5.0.4                      py_0    conda-forge
+     nbsphinx                  0.5.1                      py_0    conda-forge
+     nccl                      2.4.6.1              cuda10.1_0    nvidia
+     ncurses                   6.1               hf484d3e_1002    conda-forge
+     nodeenv                   1.3.5                      py_0    conda-forge
+     notebook                  6.0.3                    py37_0    conda-forge
+     numba                     0.48.0           py37hb3f55d8_0    conda-forge
+     numpy                     1.18.1           py37h95a1406_0    conda-forge
+     numpydoc                  0.9.2                      py_0    conda-forge
+     nvstrings                 0.3.0           cuda9.2_py37_18    rapidsai
+     olefile                   0.46                       py_0    conda-forge
+     openssl                   1.1.1d               h516909a_0    conda-forge
+     packaging                 20.1                       py_0    conda-forge
+     pandas                    0.25.3           py37hb3f55d8_0    conda-forge
+     pandoc                    1.19.2                        0    conda-forge
+     pandocfilters             1.4.2                      py_1    conda-forge
+     parquet-cpp               1.5.1                         2    conda-forge
+     parso                     0.6.1                      py_0    conda-forge
+     partd                     1.1.0                      py_0    conda-forge
+     pathspec                  0.7.0                      py_0    conda-forge
+     pexpect                   4.8.0                    py37_0    conda-forge
+     pickleshare               0.7.5                 py37_1000    conda-forge
+     pillow                    7.0.0            py37hefe7db6_0    conda-forge
+     pip                       20.0.2                     py_2    conda-forge
+     pluggy                    0.13.0                   py37_0    conda-forge
+     pre_commit                1.18.1                   py37_0    conda-forge
+     prometheus_client         0.7.1                      py_0    conda-forge
+     prompt_toolkit            3.0.3                      py_0    conda-forge
+     psutil                    5.6.7            py37h516909a_0    conda-forge
+     ptyprocess                0.6.0                   py_1001    conda-forge
+     py                        1.8.1                      py_0    conda-forge
+     pyarrow                   0.15.0           py37h8b68381_1    conda-forge
+     pycodestyle               2.5.0                      py_0    conda-forge
+     pycparser                 2.19                     py37_1    conda-forge
+     pyflakes                  2.1.1                      py_0    conda-forge
+     pygments                  2.5.2                      py_0    conda-forge
+     pyopenssl                 19.1.0                   py37_0    conda-forge
+     pyparsing                 2.4.6                      py_0    conda-forge
+     pyrsistent                0.15.7           py37h516909a_0    conda-forge
+     pysocks                   1.7.1                    py37_0    conda-forge
+     pytest                    5.3.5                    py37_1    conda-forge
+     python                    3.7.6                h357f687_2    conda-forge
+     python-dateutil           2.8.1                      py_0    conda-forge
+     pytz                      2019.3                     py_0    conda-forge
+     pyyaml                    5.3              py37h516909a_0    conda-forge
+     pyzmq                     18.1.1           py37h1768529_0    conda-forge
+     rapidjson                 1.1.0             he1b5a44_1002    conda-forge
+     re2                       2020.01.01           he1b5a44_0    conda-forge
+     readline                  8.0                  hf8c457e_0    conda-forge
+     recommonmark              0.6.0                      py_0    conda-forge
+     regex                     2020.1.8         py37h516909a_0    conda-forge
+     requests                  2.22.0                   py37_1    conda-forge
+     rhash                     1.3.6             h14c3975_1001    conda-forge
+     rmm                       0.13.0a200217          py37_191    rapidsai-nightly
+     send2trash                1.5.0                      py_0    conda-forge
+     setuptools                45.2.0                   py37_0    conda-forge
+     six                       1.14.0                   py37_0    conda-forge
+     snappy                    1.1.8                he1b5a44_1    conda-forge
+     snowballstemmer           2.0.0                      py_0    conda-forge
+     sortedcontainers          2.1.0                      py_0    conda-forge
+     sphinx                    2.4.1                      py_0    conda-forge
+     sphinx-markdown-tables    0.0.12                   pypi_0    pypi
+     sphinx_rtd_theme          0.4.3                      py_0    conda-forge
+     sphinxcontrib-applehelp   1.0.1                      py_0    conda-forge
+     sphinxcontrib-devhelp     1.0.1                      py_0    conda-forge
+     sphinxcontrib-htmlhelp    1.0.2                      py_0    conda-forge
+     sphinxcontrib-jsmath      1.0.1                      py_0    conda-forge
+     sphinxcontrib-qthelp      1.0.2                      py_0    conda-forge
+     sphinxcontrib-serializinghtml 1.1.3                      py_0    conda-forge
+     sphinxcontrib-websupport  1.1.2                      py_0    conda-forge
+     sqlite                    3.30.1               hcee41ef_0    conda-forge
+     streamz                   0.5.2                    pypi_0    pypi
+     tblib                     1.6.0                      py_0    conda-forge
+     terminado                 0.8.3                    py37_0    conda-forge
+     testpath                  0.4.4                      py_0    conda-forge
+     thrift-cpp                0.12.0            hf3afdfd_1004    conda-forge
+     tk                        8.6.10               hed695b0_0    conda-forge
+     toml                      0.10.0                     py_0    conda-forge
+     toolz                     0.10.0                     py_0    conda-forge
+     tornado                   6.0.3            py37h516909a_4    conda-forge
+     traitlets                 4.3.3                    py37_0    conda-forge
+     typed-ast                 1.4.1            py37h516909a_0    conda-forge
+     typing_extensions         3.7.4.1                  py37_0    conda-forge
+     uriparser                 0.9.3                he1b5a44_1    conda-forge
+     urllib3                   1.25.7                   py37_0    conda-forge
+     virtualenv                16.7.5                     py_0    conda-forge
+     wcwidth                   0.1.8                      py_0    conda-forge
+     webencodings              0.5.1                      py_1    conda-forge
+     wheel                     0.34.2                     py_1    conda-forge
+     xz                        5.2.4             h14c3975_1001    conda-forge
+     yaml                      0.2.2                h516909a_1    conda-forge
+     zeromq                    4.3.2                he1b5a44_2    conda-forge
+     zict                      1.0.0                      py_0    conda-forge
+     zipp                      2.2.0                      py_0    conda-forge
+     zlib                      1.2.11            h516909a_1006    conda-forge
+     zstd                      1.4.3                h3b9ef0a_0    conda-forge
+     
+</pre></details>
+
