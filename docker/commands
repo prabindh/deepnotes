@@ -13,6 +13,13 @@ Build docker image:
 docker run -p ipaddr:1235:1235 test_image ./test-app "0.0.0.0" 1235
 (0.0.0.0 binds to all IPs of host)
 
+docker images --> Get list of images
 docker ps --> Get id of container to stop
 docker stop <id> --> Stop container run
 
+To launch a shell and exit after executing it:
+
+<Windows container only - isolation process>
+docker run -v c:\Docker:c:\Docker -it --isolation process --entrypoint "cmd" docker_image_tag /c some-worker-script.cmd
+
+Instead of /c if /k is used, the shell will remain
