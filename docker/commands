@@ -23,3 +23,9 @@ To launch a shell and exit after executing it:
 docker run -v c:\Docker:c:\Docker -it --isolation process --entrypoint "cmd" docker_image_tag /c some-worker-script.cmd
 
 Instead of /c if /k is used, the shell will remain
+
+Windows ML container:
+
+https://github.com/MicrosoftDocs/Virtualization-Documentation/tree/master/windows-container-samples/directx
+
+Updated to 1909 image.
