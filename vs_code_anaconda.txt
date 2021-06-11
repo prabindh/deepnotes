@@ -1,0 +1,30 @@
+- Install vscode
+- Install Anaconda
+
+- Add conda terminal to vs code via launch.json. Args have to be added like
+"args": ["--a=2", "--n=1", "--ass", "--input=stg", "--itis"]
+				 
+https://medium.com/analytics-vidhya/efficient-way-to-activate-conda-in-vscode-ef21c4c231f2
+
+Example configuration ("Run"-->"Open Configurations") - launch.json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+	    "args": ["--a=2", "--n=1", "--ass", "--input=stg", "--itis"]
+	}
+
+- Close vscode
+-- open conda prompt, 
+-- activate required environment, "activate myenv"
+- launch vscode from same prompt, using "code"
