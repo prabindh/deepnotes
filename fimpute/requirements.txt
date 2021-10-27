@@ -43,7 +43,7 @@ dash==0.21.0
 dash-core-components==0.22.1
 dash-html-components==0.10.0
 dash-renderer==0.12.1
-dask==1.0.0
+dask==2021.10.0
 dataclasses==0.5
 datashape==0.5.4
 decorator==4.3.0
